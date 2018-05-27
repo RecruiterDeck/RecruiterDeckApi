@@ -17,3 +17,8 @@
 coverage
 node_modules
 npm-debug.log
+.vscode
+.env
+.env*
+.ENV
+.ENV*

@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "pg": {
+    "name": "RecruiterDeck",
+    "connector": "postgresql",
+    "host": "localhost",
+    "port": 32802,
+    "url": "postgres://postgres:postgres@localhost:32802/RecruiterDeck?ssl=false",
+    "database": "RecruiterDeck",
+    "user": "postgres",
+    "ssl": false
   }
 }
