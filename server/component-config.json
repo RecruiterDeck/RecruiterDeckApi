@@ -1,6 +1,11 @@
 {
   "loopback-component-explorer": {
     "mountPath": "/api",
-    "generateOperationScopedModels": true
+    "generateOperationScopedModels": true,
+    "uiDirs": "server/explorer",
+    "apiInfo": {
+      "title": "RecruiterDeck API",
+      "description": "REST API for RecruiterDeck.com"
+    }
   }
 }
